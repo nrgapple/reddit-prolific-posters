@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+praw = "*"
+pandas = "*"
+python-dotenv = "*"
+
+[dev-packages]
+jupyter = "*"
+notebook = "*"
+
+[requires]
+python_version = "3.9"
